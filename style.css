@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.logo-header img{
+    height: 18px;
+    width: 138px;
+    padding:0 20px;
+}
+
+.middle-content, .side-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-content div {
+    margin:0 15px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.side-content img{
+    height: 20px;
+    width: 20px;
+}
+
+.side-content div {
+    padding:0 15px;
+    cursor: pointer;
+}
+
+.bg-home {
+    position:absolute;
+    height: 153%;
+    width: 100%;
+}
+
+.bg-home-watch {
+    position:relative;
+    height: 740px;
+    width: 759px;
+    top:50%;
+    left:50%;
+}
+
+.home-text {
+    position: absolute;
+    top: 55%; 
+    left: 10%; 
+    transform: translate(-50%, -50%); 
+    background-color: #00000000; 
+    color: #fff; 
+    padding: 10px 20px; 
+    text-align: center;
+    width: 100px;
+    font-weight: 800;
+}
+
+.home-text h1 {
+    font-size: 60px;
+    line-height: 60px;
+}
+.home-text h5 {
+    font-size: 18px;
+}
+
+.home-text a {
+    font-size: 12px;
+}
+
+.section1 {
+    background-color:#262626;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:0px 300px;
+}
+
+.section1 button {
+   font-size:12px;
+   padding:16px 15px;
+   color:white;
+   background-color: #262626;
+   border:solid;
+   border-width:2px;
+   height:54px;
+   width: 278px;
+}
+
+.section2 {
+    background-color: #191919;
+    color:white;
+}
+
+.explore-watches{
+    font-size: 40px;
+    padding:100px 93px;
+}
+ .cataloge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.watch img{
+    width:265px;
+    height: 400px;
+}
+
+.watch {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 0px;
+}
+
+.video1 {
+    position:absolute;
+height: 123%;
+}
+
+.text-section3 button {
+    background-color: #00000000;
+    border:solid;
+    border-color: white;
+    color:white;
+    width:137px;
+    padding:20px;
+    z-index:100;
+    margin:0 190px;
+}
+
+.text-section3 {
+    position: relative;
+    /* top: 50%; 
+    left: 50%;  */
+    /* transform: translate(-50%, -50%);  */
+    background-color: #00000000;
+    color: #fff; 
+    margin:400px 470px;
+    /* padding: 10px 20px;  */
+    text-align: center;
+    width: 575px;
+    font-weight: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.text-section3 h1 {
+    font-size:48px;
+}
+
+
